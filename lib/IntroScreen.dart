@@ -13,14 +13,14 @@ class IntroScreen extends StatelessWidget {
         pages: [
           PageViewModel(
             titleWidget: Text(
-              "Write Title of Page",
+              "Genshin Tip 1",
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
               ),
             ),
             body:
-            "Write the more description of the page. Write more description of the page.Write more description of the page.",
+            "Pay attention to the elements and switch characters constantly. Genshin Impact is not a game where one character is played and the other 3 slots are ignored.",
             image: Image.asset(
               "images/1.png",
               height: 400,
@@ -29,14 +29,14 @@ class IntroScreen extends StatelessWidget {
           ),
           PageViewModel(
             titleWidget: Text(
-              "Write Title of Page",
+              "Genshin Tip 2",
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
               ),
             ),
             body:
-            "Write the more description of the page. Write more description of the page.Write more description of the page.",
+            "This Pity system also applies to 5-star rewards in that, if players don't get a 5-star in 89 rolls, they 100% will on the 90. Additionally, if players get a 4-star somewhere before their 10th roll, the count restarts. ",
             image: Image.asset(
               "images/2.png",
               height: 400,
@@ -45,14 +45,14 @@ class IntroScreen extends StatelessWidget {
           ),
           PageViewModel(
             titleWidget: Text(
-              "Write Title of Page",
+              "Genshin Tip 3",
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
               ),
             ),
             body:
-            "Write the more description of the page. Write more description of the page.Write more description of the page.",
+            "All characters in this game have one Passive that's unlocked as soon as they're collected, and a few others that will unlock as that character ascends to Phase 2 and so on. ",
             image: Image.asset(
               "images/3.png",
               height: 400,
